@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "OpenSSL for iOS"
   s.description  = "OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support. Supports iOS including Simulator (armv7,armv7s,arm64,i386,x86_64)."
   s.homepage     = "https://github.com/ccwangzh/OpenSSL"
-  s.license	     = { :type => 'OpenSSL (OpenSSL/SSLeay)', :file => 'LICENSE.txt' }
+  s.license	     = { :type => 'OpenSSL (OpenSSL/SSLeay)', :file => 'LICENSE' }
   s.source       = { :git => "git@github.com:ccwangzh/OpenSSL.git", :tag => "#{s.version}" }
 
   s.authors       =  {'Mark J. Cox' => 'mark@openssl.org',
